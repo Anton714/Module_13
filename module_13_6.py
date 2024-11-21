@@ -30,8 +30,7 @@ class UserState(StatesGroup):
 
 @dp.message_handler(text=['Информация'])
 async def start_message(message):
-    await message.answer('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.\n '
-                         'Помогу рассчитать необходимое количество калорий в сутки')
+    await message.answer('Помогу рассчитать необходимое количество калорий в сутки')
 
 
 @dp.message_handler(text='Рассчитать')
